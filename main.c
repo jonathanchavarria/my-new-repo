@@ -1,8 +1,9 @@
 #include<stdio.h>
+#include<math.h>
 
 float math_fucntion(float x)
 {
-	return 0;
+	return asin(x);
 }
 
 int main()
