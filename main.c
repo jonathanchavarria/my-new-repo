@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-float math_fucntion()
+float math_fucntion(float x)
 {
 	return 0;
 }
