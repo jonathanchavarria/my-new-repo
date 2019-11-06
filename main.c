@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 
-float math_fucntion(float x)
+float math_function(float x)
 {
 	return asin(x);
 }
