@@ -3,12 +3,8 @@
 
 float math_function(float x)
 {
-<<<<<<< HEAD
 	return asin(x);
-=======
-	
 	return 0;
->>>>>>> 40a595ec35c7f42ce40d0359914d038f58674e62
 }
 
 int main()
