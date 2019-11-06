@@ -3,8 +3,8 @@
 
 float math_function(float x)
 {
-	return asin(x);
-	return 0;
+	
+	return x+1;
 }
 
 int main()
@@ -13,11 +13,12 @@ int main()
 	float dt;
 		
 	printf("Enter your bounds (a, b); ");
-	scanf("%d", "%d", &boundA, &boundB);
-	printf("Enter your dt: ")l
-	scanf("%d", &dt);
+	scanf("%d,%d", &boundA, &boundB);
+	printf("Enter your dt: ");
+	scanf("%f", &dt);
 
-	float integral = 0l
+	float integral = 0; 
+
 	for(float x= boundA; x<boundB; x+=dt)
 		{
 			integral+=math_function(x)*dt;
