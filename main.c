@@ -11,7 +11,7 @@ int main()
 {
 	int boundA, boundB;
 	float dt;
-		
+
 	printf("Enter your bounds (a, b); ");
 	scanf("%d", "%d", &boundA, &boundB);
 	printf("Enter your dt: ")l
@@ -22,9 +22,9 @@ int main()
 		{
 			integral+=math_function(x)*dt;
 		}
-		
+
 		printf("Integral between %d and %d with dt of %f is: %f\n", boundA, boundB, dt, integral);
 
-	
+
 	return 0;
 }
